@@ -1,0 +1,276 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale = 1.0, user-scalable = no">
+	<title>MongoDB.sk : najobľúbenejšia open source NoSQL databáza</title>
+	<meta name="description" value="Stránka venovaná najobľúbenejšej otvorenej NoSQL databáze MongoDB. Základné informácie, dokumentácia, nástroje, zaujímavé linky a články.">
+	<meta name="keywords" value="mongo, mongod, db, nosql, 10gen, database, data, big data, slovenčina, dokumentácia, príklady, open, open-source, download, na stiahnutie, pomoc, startup, startapp"> 
+	<link rel="stylesheet" href="css/grid.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,600' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script type="text/javascript" src="js/js.js"></script>
+	<script type="text/javascript" src="js/jquery.stellar.min.js"></script>
+	<script type="text/javascript" src="js/waypoints.min.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+	<script>
+		$(window).scroll(function() {
+		    if ($(this).scrollTop() < 250) {
+		        $("#logo:visible").hide();
+		    }
+		    else {
+		        $("#logo:hidden").show();
+		    }
+		});
+	</script>
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-72.png" />
+	<link rel="shortcut icon"  href="images/favicon.png">
+</head>
+
+<body>
+
+<div class="menu">	
+	<div class="container clearfix">
+
+		<div class="grid_3">
+			<div id="logo">
+				<a class="button" data-slide="1">mongo<span class="brown">DB</span>.sk</a>
+			</div>
+		</div>
+		
+		<div id="nav" class="grid_9 omega">
+			<ul class="navigation">
+				<li data-slide="2">Vlastnosti</li>
+				<li data-slide="3">Na stiahnutie</li>
+				<li data-slide="4">Dokumentácia</li>
+				<li data-slide="5">Nástroje</li>			
+			</ul>
+		</div>
+	
+	</div>
+</div>
+
+
+<div class="slide" id="slide1" data-slide="1" data-stellar-background-ratio="0.5">
+	<div class="container clearfix">
+		
+		<div id="content" class="grid_7">
+			<p>Welcome to unofficial <b>Slovak MongoDB pages</b>. <br />
+				The international website is located at <a href="http://www.mongodb.org" target="_blank">mongodb.org</a></p>
+			<h1>mongo<span class="brown">DB</span>.sk</h1>
+			<h2>Otvorená NoSQL databáza</h2>
+			<p>Rozcestník informácii o <b>dokumentovo orientovanom</b> databázovom systéme, ktorý je vyvíjaný a podporovaný spoločnosťou <a href="http://www.10gen.com/" title="10gen: The Company Behind The MongoDB NoSQL Database" target="_blank">10gen, Inc.</a> </p>
+			<p>Obľúbený je pre svoje možnosti <b>škálovania</b> a <b>vysoký výkon</b>. Pomenovanie má základ v slove "hu<b>mongo</b>us" a vyvíja sa od októbra 2007 v jazyku C++.</p>
+			</div>
+		<div id="decorative" class="grid_5 omega">
+			<img src="images/mongodb-leaf.png">
+		</div>
+	
+	</div>
+</div>
+
+
+
+<div class="slide" id="slide2" data-slide="2" data-stellar-background-ratio="0.5">
+	<div class="container clearfix">
+		
+		<div id="content" class="grid_12">
+			<h1>Vlastnosti</h1>
+			<h2>{name:"mongo", type:"DB"}</h2>
+			<p>MongoDB sa odlišuje od <i>"klasických"</i> relačných databáz tým, že ukladá štruktúrované dáta ako <abbr title="JavaScript Object Notation">
+JSON</abbr> dokumenty s dynamickými schémami (MongoDB nazýva tento formát <abbr title="Binary JSON">BSON</abbr>). Vďaka tomu je práca s určitými typmi dát rýchlejšia a jednoduchšia. 
+			</p>
+			<h2>Kto používa MongoDB?</h2>
+			<p>Craigslist &middot; Firebase &middot; SAP &middot; MTV Networks &middot; SourceForge &middot; Foursquare &middot; Behance &middot; O2 &middot; SugarCRM &middot; Disney &middot; EA &middot; Guardian.co.uk &middot; Forbes &middot; Santosoft Wordnik &middot; Harmonik &middot; eHow &middot; Watchlater &middot; Tus Media &middot; CustomInk &middot; OpenSky &middot; Shopwiki &middot; Yabblr &middot; Socialbakers &middot; Shelf9 &middot; Betterz &middot; TalkOver &middot; wline &middot; Nodex &middot; Spideo &middot; Stripe &middot; Famigo &middot; About.me &middot; Hopper &middot; Nearley  a <a href="http://www.mongodb.org/about/production-deployments/" title="MongoDB Production Deployments" target="_blank">mnohí ďaľší</a>
+			</p>
+		</div>
+	
+	</div>
+</div>
+
+<div class="slide" id="slide3" data-slide="3" data-stellar-background-ratio="0.5">
+	<div class="container clearfix">
+		
+		<div id="content" class="grid_12">
+			<h1>Na stiahnutie</h1>
+			<h2>MongoDB je multiplatformový databázový systém</h2>
+			<p>Aktuálnu produkčnú verziu nájdete na <a href="http://www.mongodb.org/downloads" title="MongoDB Downloads" target="_blank">oficiálnych stránkach</a>. Podporované operačné systémy sú <b>Apple Mac OS X</b> 64-bit, <b>Linux</b> 32-bit a 64-bit, <b>Microsoft Windows</b> 32-bit a 64-bit a <b>Solaris</b> 64-bit. Pre produkčné nasadenie sa odporúča len 64-bitové prostredie, nakoľko 32-bitové ma <a href="http://blog.mongodb.org/post/137788967/32-bit-limitations" title="32-bit limitations" target="_blank">niekoľko obmedzení</a>.
+			</p>
+			<p>
+			</p>
+			<div class="grid_6">
+				<h2>Driver</h2>
+				<p>Driver je komunikačným prostriedkom (knižnicou) medzi samotnou databázou a programovacím jazykom v ktorom je aplikácia napísaná. Priamo sú pokryté momentálne <a href="http://docs.mongodb.org/ecosystem/drivers/" title="MongoDB Drivers and Client Libraries" target="_blank">najznámejšie jazyky</a> ako Java, Ruby, Python, PHP, Perl či C++ a mnohé ďalšie. Okrem toho sú aj <a href="http://docs.mongodb.org/ecosystem/drivers/community-supported-drivers/" title="Community Supported Drivers" target="_blank">komunitne vyvíjané</a> knižnice aj pre <em>„exotickejšie“</em> jazyky ako Dart, Fantom, Lua, Lisp, MatLab, PowerShell a ďalšie.
+				</p>
+				<p>V prípade, že pre váš jazyk Driver neexistuje je veľmi vítane ak sa ho pokúsite napísať, <a href="http://docs.mongodb.org/meta-driver/latest/" title="MongoDB Meta Driver" target="_blank">dokumentácia</a> je k dispozícii. 
+				</p>
+			</div>
+			<div class="grid_6 omega">
+				<h2>Balíčky</h2>
+				<p>Keďže MongoDB je pod otvorenou licenciou, tak dispozícii je aj <a href="https://github.com/mongodb" title="MongoDB on GitHub" target="_blank">zdrojový kód</a> všetkých jeho súčastí. 
+				</p>
+				<p>Množstvo distribúcii a systémov má MongoDB vo svojich repozitároch:
+					<ul>
+						<li><b>MacPorts</b> - hľadaj <code>mongodb</code></li>
+						<li><b>Homebrew</b> - hľadaj <code>mongodb</code></li>
+						<li><b>FreeBSD</b> - hľadaj <code>mongodb</code> a <code>mongodb-devel</code></li>
+						<li><b>ArchLinux</b> - hľadaj <code>mongodb</code></li>
+						<li><b>Debian</b> a <b>Ubuntu</b> - <a href="http://docs.mongodb.org/manual/tutorial/install-mongodb-on-debian-or-ubuntu-linux/" title="Install MongoDB on Debian or Ubuntu Linux" target="_blank">repozitár</a></li>
+						<li><b>RedHat</b> a <b>CentOS/Fedora</b> - <a href="http://docs.mongodb.org/manual/tutorial/install-mongodb-on-red-hat-centos-or-fedora-linux/" title="Install MongoDB on Red Hat Enterprise, CentOS, or Fedora Linux" target="_blank">repozitár</a></li>
+						<li><b>Gentoo</b> - <a href="http://packages.gentoo.org/package/dev-db/mongodb" title="dev-db/mongodb" target="_blank">repozitár</a></li>
+					</ul>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="slide" id="slide4" data-slide="4" data-stellar-background-ratio="0.5">
+	<div class="container clearfix">
+		
+		<div id="content" class="grid_12">
+			<h1>Dokumentácia</h1>
+
+			<h2>Ako začať?</h2>
+
+			<p>Dobrým štartom je samotná oficiálna stránka <a href="http://www.mongodb.org" title="mongodb.org" target="_blank">mongodb.org</a> resp. <a href="http://docs.mongodb.org" title="docs.mongodb.org" target="_blank">docs.mongodb.org</a>docs.mongodb.org</a>, ktorá popisuje <a href="http://docs.mongodb.org/manual/installation/" title="Install MongoDB" target="_blank">inštaláciu</a>, <a href="http://docs.mongodb.org/manual/tutorial/getting-started/" title="Getting Started with MongoDB" target="_blank">prvé kroky</a>, <a href="http://docs.mongodb.org/manual/mongo/" title="The mongo Shell" target="_blank">MongoDB Shell</a> a <a href="http://docs.mongodb.org/manual/tutorial/" title="MongoDB Tutorials" target="_blank">tutoriály</a>. Dokumentácia je veľmi dobre spracovaná a pokrýva kompletnú problematiku tohto databázového systému.</p>
+			<p>Na domovskej stránke projektu sa nachádza aj online interaktívny shell na jednoduché objasnenie niektorých príkazov bez nutnosti inštalovať celé prostredie.
+			</p>
+			
+			<hr>
+
+			<h2>Články v slovenčine a čestine</h2>
+			<ul>
+				<li>Martin Strýček - <a href="http://www.slideshare.net/webelement/mongo-db-13308705" title="Ako začať s MongoDB" target="_blank">Ako začať s MongoDB</a> - prezentácia zo stretnutia WebElement #8 v Bratislave</li>
+				<li>Róbert Novotný - <a href="http://ics.upjs.sk/~novotnyr/blog/194/mongodb-dokumentova-databaza-1-instalacia-a-dopytovanie" title="mongoDB – dokumentová databáza 1 – inštalácia a dopytovanie" target="_blank">mongoDB – dokumentová databáza 1 – inštalácia a dopytovanie</a></li>
+				<li>Róbert Novotný - <a href="http://ics.upjs.sk/~novotnyr/blog/202/mongodb-dokumentova-databaza-2-aktualizacie-objektov" title="mongoDB – dokumentová databáza 2 – aktualizácie objektov" target="_blank">mongoDB – dokumentová databáza 2 – aktualizácie objektov</a></li>		
+				<li>Pavel Klobása - <a href="http://vsadnajavu.cz/2012-01/databaze/letmy-technologicky-pohled-na-mongodb/" title="Letmý technologický pohled na MongoDB" target="_blank">Letmý technologický pohled na MongoDB</a></li>
+				<li>Ladislav Thon - <a href="http://www.abclinuxu.cz/clanky/programovani/lehky-uvod-do-mongodb" title="Lehký úvod do MongoDB" target="_blank">Lehký úvod do MongoDB</a></li>
+				<li>Karol Rástočný - <a href="http://www2.fiit.stuba.sk/DBS/lectures/files/22_MongoDB.pdf" title="MONGODB" target="_blank">MONGODB</a> (PDF dokument)</li>
+				<li>zdrojak.cz - <a href="http://www.zdrojak.cz/n/mongodb/" title="MongoDB archív" target="_blank">Archív článkov na tému MongoDB</a></li>
+			</ul>
+
+			<hr>
+
+			<h2>Knihy</h2>
+			<p>V slovenskom ani v českom jazyku nie je k dispozícii žiadna ucelená publikácia. Niekoľko tipov na knihy v anglickom jazyku. Niektoré sú aj v elektronickej podobe.
+			</p>
+			<div class="clearfix">
+				<div class="grid_2"><img src="images/books/01.jpg"/></div> <div class="grid_4"><b>MongoDB: The Definitive Guide</b> 2nd edition<br />Michael Dirolf, Kristina Chodorow<br /><br /> <a href="http://www.bookdepository.co.uk/MongoDB-Definitive-Guide-Kristina-Chodorow/9781449344689" title="bookdepository.co.uk" target="_blank">bookdepository.co.uk</a></div> <div class="grid_2"><img src="images/books/02.jpg"/></div> <div class="grid_4 omega"><b>Building Node Applications with MongoDB and Backbone</b><br />Mike Wilson<br /><br /> <a href="http://www.bookdepository.co.uk/Building-Node-Applications-with-MongoDB-Backbone-Mike-Wilson/9781449337391" title="bookdepository.co.uk" target="_blank">bookdepository.co.uk</a></div>
+				<div class="clearfix"></div>
+				<div class="grid_2"><img src="images/books/03.jpg"/></div> <div class="grid_4"><b>MongoDB in Action</b><br />Kyle Banker<br /><br /> <a href="http://www.bookdepository.co.uk/MongoDB-Action-Kyle-Banker/9781935182870" title="bookdepository.co.uk" target="_blank">bookdepository.co.uk</a></div> <div class="grid_2"><img src="images/books/04.jpg"/></div> <div class="grid_4 omega"><b>The Definitive Guide to MongoDB: The NOSQL Database for Cloud and Desktop Computing</b><br />Tim Hawkins, Eelco Plugge, Peter Membrey<br /><br /> <a href="http://www.bookdepository.co.uk/Definitive-Guide-MongoDB-Tim-Hawkins/9781430230519" title="bookdepository.co.uk" target="_blank">bookdepository.co.uk</a></div>
+				<div class="clearfix"></div>	
+				<div class="grid_2"><img src="images/books/05.jpg"/></div> <div class="grid_4"><b>Scaling MongoDB</b><br />Kristina Chodorow<br /><br /> <a href="http://www.bookdepository.co.uk/Scaling-MongoDB-Kristina-Chodorow/9781449303211" title="bookdepository.co.uk" target="_blank">bookdepository.co.uk</a></div> <div class="grid_2"><img src="images/books/06.jpg"/></div> <div class="grid_4 omega"><b>MongoDB Applied Design Patterns</b><br />Rick Copeland<br /><br /> <a href="http://www.bookdepository.co.uk/MongoDB-Applied-Design-Patterns-Rick-Copeland/9781449340049" title="bookdepository.co.uk" target="_blank">bookdepository.co.uk</a></div>
+				<div class="clearfix"></div>	
+				<div class="grid_2"><img src="images/books/07.jpg"/></div> <div class="grid_4"><b>PHP and MongoDB Web Development Beginner's Guide</b><br />R. Islam<br /><br /> <a href="http://www.bookdepository.co.uk/PHP-MongoDB-Web-Development-Beginners-Guide-Islam/9781849513623" title="bookdepository.co.uk" target="_blank">bookdepository.co.uk</a></div> <div class="grid_2"><img src="images/books/08.jpg"/></div> <div class="grid_4 omega"><b>50 Tips and Tricks for MongoDB Developers</b><br />Kristina Chodorow<br /><br /> <a href="http://www.bookdepository.co.uk/50-Tips-Tricks-for-MongoDB-Developers-Kristina-Chodorow/9781449304614" title="bookdepository.co.uk" target="_blank">bookdepository.co.uk</a></div>
+				<div class="clearfix"></div>	
+				<div class="grid_2"><img src="images/books/09.jpg"/></div> <div class="grid_4"><b>MongoDB and Python: Patterns and Processes for the Popular Document-oriented Database</b><br />Niall O'Higgins<br /><br /> <a href="http://www.bookdepository.co.uk/MongoDB-Python-Niall-OHiggins/9781449310370" title="bookdepository.co.uk" target="_blank">bookdepository.co.uk</a></div> <div class="grid_2"><img src="images/books/10.jpg"/></div> <div class="grid_4 omega"><b>Ruby and MongoDB Web Development Beginner's Guide</b><br />Gautam Rege<br /><br /> <a href="http://www.bookdepository.co.uk/Ruby-MongoDB-Web-Development-Beginners-Guide-Gautam-Rege/9781849515023" title="bookdepository.co.uk" target="_blank">bookdepository.co.uk</a></div>
+				<div class="clearfix"></div>													
+				<div class="grid_2"><img src="images/books/11.jpg"/></div> <div class="grid_4"><b>Document Design for MongoDB</b><br />Ryan Nitz, Jeremy McAnally<br /><br /> <a href="http://www.bookdepository.co.uk/Document-Design-for-MongoDB-Ryan-Nitz/9781449303419" title="bookdepository.co.uk" target="_blank">bookdepository.co.uk</a></div> <div class="grid_2"><img src="images/books/12.jpg"/></div> <div class="grid_4 omega"><b>Pro Hibernate and MongoDB</b><br />Anghel Leonard<br /><br /> <a href="http://www.bookdepository.co.uk/Pro-Hibernate-MongoDB-Anghel-Leonard/9781430257943" title="bookdepository.co.uk" target="_blank">bookdepository.co.uk</a></div>
+			</div>
+
+			<hr>			
+			
+			<div class="clearfix">
+				<div class="grid_6">
+					<h2>Školenie a certifikácia</h2>
+					<p><b>10gen, Inc.</b> ponúka aj <a href="http://www.10gen.com/products/training" title="MongoDB Training" target="_blank">školenia</a> a rôzne vzdelávacie aktivity k svojmu databázovému systému. Globálne robí dvojdňové školenia buď pre <b>vývojárov</b> (developers) alebo pre <b>administrátorov</b> (administrators). K dispozícii je aj trojdňová kombinácia oboch školení (essentials). Na vyžiadanie je možné spraviť aj súkromné školenie napríklad pre firmu. 
+					</p>
+					<p>V roku 2012 začala spoločnosť s <a href="https://education.10gen.com/" title="10gen Education" target="_blank">online školeniami</a>, do ktorých sa momentálne môže zapojiť každý zdarma. Takýto kurz pozostáva z výučbových videí, domácich úloh a finálneho testu. Každý úspešný absolvent získa na konci certifikát. Prehľad online kurzov:
+					<ul>
+						<li>M101J: MongoDB for Java Developers</li>
+						<li>M101JS: MongoDB for Node.js Developers</li>
+						<li>M101P: MongoDB for Developers (Python)</li>
+						<li>M102: MongoDB for DBAs</li>
+					</ul>
+					</p>
+				</div> 
+				<div class="grid_6 omega">
+					<h2>Komerčná podpora</h2>
+					<p>Aj keď je MongoDB otvorenou databázou, tak je k dispozícii aj komerčná podpora – tú zabezpečuje jej tvorca <a href="http://www.10gen.com/" title="10gen: The Company Behind The MongoDB NoSQL Database" target="_blank">10gen, Inc.</a> - ponúka <a href="http://www.10gen.com/products/mongodb-consulting" title="MongoDB Consulting" target="_blank">konzultácie</a>, <a href="http://www.10gen.com/products/mongodb-subscriptions" title="MongoDB Subscriptions" target="_blank">technickú podporu</a> fromou subskribcií.
+					</p>
+					<p><a href="http://www.10gen.com/products/mongodb-enterprise" title="MongoDB Enterprise" target="_blank">MongoDB Enterprise</a> edícia sa od open-source verzii odlišuje v niektorých  pokročilejších vlastnostiach a funkciách. Zvláda <b>Kerberos Authentication</b>, má podporu pre <b>SNMP</b> monitoring, ktorý používajú rôzne obľúbené manažovacie a monitorovacie nástroje a je testovaná a <b>certifikovaná pre operačné systémy</b> Red Hat/CentOS, Ubuntu, SuSE a Amazon Linux.
+					</p>
+				</div>
+			</div>
+
+			<hr>
+
+			<h2>Zaujímavé odkazy</h2>
+			<ul>
+				<li><a href="http://planet.mongodb.org/" title="Planet MongoDB" target="_blank">Planet MongoDB</a> - agregátor zaujímavých blogov o MongoDB</li>
+				<li><a href="http://www.10gen.com/presentations/" title="MongoDB presentations" target="_blank">MongoDB presentations</a> - prezentácie z podujatí na ktorých vystupovalo 10gen, Inc.</li>
+				<li><a href="http://www.10gen.com/reference" title="Reference Cards" target="_blank">Reference Cards</a> - stručné referenčné ťaháky v PDF</li>
+				<li><a href="http://www.10gen.com/events" title="Events and Webinars" target="_blank">Events and Webinars</a> - podujatia a online prezentácie najčastejšie k novinkám v databázovom systéme</li>
+				<li><a href="http://stackoverflow.com/questions/tagged/mongodb" title="Stack Overflow" target="_blank">Stack Overflow</a> - otázky a odpovede na tému MongoDB</li>
+				<li>Diskusné fóra Google Groups <a href="https://groups.google.com/group/mongodb-user" title="MongoDB User Forum" target="_blank">MongoDB User Forum</a> a <a href="https://groups.google.com/group/mongodb-dev" title="MongoDB Dev Forum" target="_blank">MongoDB Dev Forum</a> (vývoj nástrojov, knižníc a podobne)</li>
+				<li><a href="irc://irc.freenode.net/#mongodb" title="IRC kanál" target="_blank">IRC kanál</a></li>
+				<li><a href="http://docs.mongodb.org/ecosystem/tools/wireshark/" title="Wireshark Support" target="_blank">Wireshark Support</a> - podpora pre obľúbený sniffer</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div class="slide" id="slide5" data-slide="5" data-stellar-background-ratio="0.5">
+	<div class="container clearfix">
+		
+		<div id="content" class="grid_12">
+			<h1>Nástroje</h1>
+			<h2>Integrované nástroje</h2>
+					<ul>
+						<li> </li>
+
+					</ul>
+			<h2>Monitorovacie nástroje</h2>
+					<ul>
+						<li><a href="http://docs.mongodb.org/ecosystem/tools/munin/" title="Munin Configuration" target="_blank">Munin Configuration</a> - integrovanie do monitorovacieho prostredia</li>
+						<li><a href="https://mms.10gen.com/" title="MongoDB Monitoring Service" target="_blank">MongoDB Monitoring Service</a> - bezplatná monitorovacia služba</li>
+					</ul>
+		</div>
+	
+	</div>
+</div>
+
+<div class="slide" id="slide6" data-slide="6" data-stellar-background-ratio="0.5">
+	<div class="container clearfix">
+		<div class="grid_9">
+			<p>Copyright &copy; 2013 <a href="http://www.startapp.sk/" title="Mobile &amp; web apps. Rocket it!" target="_blank">StartApp</a>. <br />
+			Postavené na <a href="https://github.com/jalxob/cool-kitten" target="_blank">cool-kitten</a>. Licencované pod <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank">Creative Commons</a>. Neprešlo jazykovou kontrolou. <br />
+			MongoDB, Mongo a logo listu sú registrované známky <a href="http://www.10gen.com/" title="10gen: The Company Behind The MongoDB NoSQL Database" target="_blank">10gen, Inc.</a>
+      		</p>
+		</div>
+		<div class="grid_3 omega">
+		</div>
+	</div>
+</div>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-199022-15', 'mongodb.sk');
+  ga('send', 'pageview');
+
+</script>
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(["trackPageView"]);
+  _paq.push(["enableLinkTracking"]);
+
+  (function() {
+    var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.startapp.sk/";
+    _paq.push(["setTrackerUrl", u+"piwik.php"]);
+    _paq.push(["setSiteId", "6"]);
+    var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+    g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Piwik Code -->
+</body>
+</html>

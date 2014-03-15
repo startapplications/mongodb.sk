@@ -1,3 +1,3 @@
 mongodb.sk
 ==========
-[sk] Rozcestník informácii o dokumentovo orientovanom databázovom systémae
+[sk] Rozcestník informácii o dokumentovo orientovanom databázovom systéme

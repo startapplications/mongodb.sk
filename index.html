@@ -78,12 +78,15 @@
 		
 		<div id="content" class="grid_12">
 			<h1>Vlastnosti</h1>
+			<p>Databáza je voľne dostupná pod <i>GNU Affero General Public License</i> a drivery pod <i>Apache License</i>. Od verzie 1.7 je MongoDB pripravené na produkčné nasadenie. Podľa <a href="http://db-engines.com/en/ranking" title="DB-Engines Ranking" target="_blank">DB-Engines Ranking</a> ide pravidelne o jeden z najobľúbejenších databázových systémov.</p>
 			<h2>{name:"mongo", type:"DB"}</h2>
 			<p>MongoDB sa odlišuje od <i>"klasických"</i> relačných databáz tým, že ukladá štruktúrované dáta ako <abbr title="JavaScript Object Notation">
 JSON</abbr> dokumenty s dynamickými schémami (MongoDB nazýva tento formát <abbr title="Binary JSON">BSON</abbr>). Vďaka tomu je práca s určitými typmi dát rýchlejšia a jednoduchšia. 
 			</p>
+			<h2>MEAN</h2>
+			<p>Ide o skratku zo začiatočných písmen JavaScript-ový technológii. Či už frontend-ových alebo backend-ových - konkrétne ide o databázu <b>M</b>ongoDB, aplikačný framework <b>E</b>xpress.js, MVC framework <b>A</b>ngular.js a server-side platformu <b>N</b>ode.js. Takýto softvérový <i>stack</i> pomerne často slúži na vývoj a prevádzku moderných webových aplikácii. </p>
 			<h2>Kto používa MongoDB?</h2>
-			<p>Craigslist &middot; Firebase &middot; SAP &middot; MTV Networks &middot; SourceForge &middot; Foursquare &middot; Behance &middot; O2 &middot; SugarCRM &middot; Disney &middot; EA &middot; Guardian.co.uk &middot; Forbes &middot; Santosoft Wordnik &middot; Harmonik &middot; eHow &middot; Watchlater &middot; Tus Media &middot; CustomInk &middot; OpenSky &middot; Shopwiki &middot; Yabblr &middot; Socialbakers &middot; Shelf9 &middot; Betterz &middot; TalkOver &middot; wline &middot; Nodex &middot; Spideo &middot; Stripe &middot; Famigo &middot; About.me &middot; Hopper &middot; Nearley  a <a href="http://www.mongodb.org/about/production-deployments/" title="MongoDB Production Deployments" target="_blank">mnohí ďaľší</a>
+			<p>Craigslist &middot; Firebase &middot; SAP &middot; MTV Networks &middot; SourceForge &middot; Foursquare &middot; Behance &middot; O2 &middot; SugarCRM &middot; Disney &middot; EA &middot; Guardian.co.uk &middot; Forbes &middot; Santosoft Wordnik &middot; Harmonik &middot; eHow &middot; Watchlater &middot; Tus Media &middot; CustomInk &middot; OpenSky &middot; Shopwiki &middot; Yabblr &middot; Socialbakers &middot; Shelf9 &middot; Betterz &middot; TalkOver &middot; wline &middot; Nodex &middot; Spideo &middot; Stripe &middot; Famigo &middot; About.me &middot; Hopper &middot; Nearley  a <a href="http://www.mongodb.org/about/production-deployments/" title="MongoDB Production Deployments" target="_blank">mnohí ďalší</a>
 			</p>
 		</div>
 	
@@ -225,7 +228,11 @@ JSON</abbr> dokumenty s dynamickými schémami (MongoDB nazýva tento formát <a
 			<h2>Monitorovacie nástroje</h2>
 					<ul>
 						<li><a href="http://docs.mongodb.org/ecosystem/tools/munin/" title="Munin Configuration" target="_blank">Munin Configuration</a> - integrovanie do monitorovacieho prostredia</li>
-						<li><a href="https://mms.mongodb.com/" title="MongoDB Monitoring Service" target="_blank">MongoDB Monitoring Service</a> - bezplatná monitorovacia služba</li>
+						<li><a href="https://mms.mongodb.com/" title="MongoDB Monitoring Service" target="_blank">MongoDB Monitoring Service</a> - bezplatná monitorovacia služba priamo od tvorcov MongoDB</li>
+						<li>MongoDB metrics for <a href="https://github.com/quiiver/mongodb-ganglia" title="mongodb-ganglia" target="_blank">ganglia</a></li>
+						<li><a href="https://github.com/tart/motop" title="motop" target="_blank">Motop</a> je klon „top“ napísaný v Pythone, podobnú funkcionalitu má aj <a href="https://github.com/beaufour/mtop" title="mtop" target="_blank">mtop</a></li>
+						<li>Plugin do <a href="https://github.com/mzupan/nagios-plugin-mongodb" title="nagios-plugin-mongodb" target="_blank">Nagios</a>-u</li>
+						<li>mikoomi je plugin do <a href="https://code.google.com/p/mikoomi/" title="mikoomi" target="_blank">Zabbix</a>-u</li>
 					</ul>
 		</div>
 	
@@ -235,14 +242,14 @@ JSON</abbr> dokumenty s dynamickými schémami (MongoDB nazýva tento formát <a
 <div class="slide" id="slide6" data-slide="6" data-stellar-background-ratio="0.5">
 	<div class="container clearfix">
 		<div class="grid_9">
-			<p>Copyright &copy; 2013 - 2014 <br />
+			<p>Copyright &copy; 2013 - 2014, Vytvoril a prevádzkuje <a href="https://www.startapp.sk/" target="_blank">startapp.sk</a><br />
 			Postavené na <a href="https://github.com/jalxob/cool-kitten" target="_blank">cool-kitten</a>. Licencované pod <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank">Creative Commons</a>. Neprešlo jazykovou kontrolou. <br />
 			MongoDB, Mongo a logo listu sú registrované známky <a href="http://www.mongodb.com/" title="MongoDB, Inc.: The Company Behind The MongoDB NoSQL Database" target="_blank">MongoDB, Inc.</a>
       		</p>
 		</div>
 		<div class="grid_3 omega">
 			<br /><br />
-			<iframe src="http://ghbtns.com/github-btn.html?user=FeroVolar&repo=mongodb.sk&type=watch&count=true&size=large" allowtransparency="true" frameborder="0" scrolling="0" width="170" height="30"></iframe>
+			<iframe src="http://ghbtns.com/github-btn.html?user=startapp-sk&repo=mongodb.sk&type=watch&count=true&size=large" allowtransparency="true" frameborder="0" scrolling="0" width="170" height="30"></iframe>
 		</div>
 	</div>
 </div>

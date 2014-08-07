@@ -2,4 +2,4 @@ mongodb.sk
 ==========
 [sk] Rozcestník informácii o dokumentovo orientovanom databázovom systéme
 
-![alt tag](https://raw.github.com/startapp-sk/mongodb.sk/branch/images/preview.png)
+![page preview](http://www.mongodb.sk/images/preview.png)

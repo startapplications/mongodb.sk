@@ -821,84 +821,40 @@ img {
 	color:#dd4b39;
 }
 
-/* Twitter Feed
----------------------------------*/
 
-/*
-.business-talking{
-	background:#00b8ff;
+.devops{
+  background:url(../img/devops.png) no-repeat right center #24555F;
+  height: 315px;
 	padding:40px 0;
-	text-align:center;
-}
-
-.business-talking p{
-	font-size:16px;
-	color:#ffffff;
-	margin:0 0 15px 0;
-	}
-
-.twitter_bird{
-	background:url(../img/twitter_bird.png) no-repeat left top;
-	width:36px;
-	margin:0px auto 15px;
-	}
-
-.business-talking p small{
-	font-size:16px;
-	color:#ffffff;
-	display:inline-block;
-	}
-
-.business-talking span{
-	display:block;
-	font-size:14px;
-	color:#ffffff;
-	}
-*/
-
-.twitter-feed{
-	background:#00b8ff;
-	padding:40px 0;
-	text-align:center;
+	text-align:center;;
+  color:#ffffff;
 	transition:all 0.3s ease-in-out;
 	-moz-transition:all 0.3s ease-in-out;
 	-webkit-transition:all 0.3s ease-in-out;
 }
 
-.twitter-feed:hover {
-	background: #f56eab;
+.devops:hover {
+	background:url(../img/devops2.jpg) no-repeat right center #000000;
 }
 
-.twitter-feed p{
+.devops p{
 	font-size:16px;
 	font-weight: 300;
 	color:#ffffff;
 	margin:0 0 15px 0;
+  width: 800px;
+  text-align: left;
+  padding-left: 10%
 	}
 
-.twitter_bird{
-	/*background:url(../img/twitter_bird.png) no-repeat left top;*/
-	width:36px;
-	margin:0px auto 15px;
-	}
 
-.twitter-feed p small{
-	font-size:16px;
-	font-weight: 300;
-	color:#ffffff;
-	display:inline-block;
-	}
-
-.twitter-feed span{
+.devops span{
 	display:block;
 	font-size:14px;
 	font-style: italic;
 	color:#ffffff;
 	}
 
-.twitter-feed span i{
-	font-size: 38px;
-}
 
 
 /* Contact
